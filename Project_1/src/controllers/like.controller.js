@@ -1,5 +1,5 @@
-import mongoose from 'mongoose';
-import { Comment } from '../models/comment.model.js';
+import mongoose, { isValidObjectId } from 'mongoose';
+import { Comment } from '../models/like.model.js';
 import { ApiErrorHandler } from '../utils/ApiErrorHander.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 import { asyncHandler } from '../utils/asyncHandler.js';
